@@ -81,7 +81,6 @@ li {
 .todolist {
     line-height: 40px;
     margin-top: 30px;
-    font-weight: 600;
 }
 
 /* entity code */
@@ -91,20 +90,15 @@ li {
 
 .check:after {
     content: "\2713";
-}
-
-.check {
     padding: 3px 5px;
     color: #3CB371;
     border: 2px solid #3CB371;
     border-radius: 50%;
 }
 
+
 .cross:after {
     content: "\2717";
-}
-
-.cross {
     padding: 3px 5px;
     color: #FF0000;
     border: 2px solid #FF0000;
@@ -120,7 +114,7 @@ li {
 }
 
 .blue {
-    background-color:lightblue;
+    background-color:#6495ED;
 }
     
 .darkgreen {
