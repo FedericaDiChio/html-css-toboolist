@@ -8,6 +8,7 @@
 
 body {
     background-color: #f2f2f2;
+    
 }
 
 /* header  */
@@ -50,6 +51,7 @@ h1 {
     line-height: 30px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    
 } 
 
 .button {
@@ -70,3 +72,47 @@ h1 {
     background-color: #ffffff;
     border: 1px solid #d9d9d9;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.todolist {
+    line-height: 40px;
+    margin-top: 30px;
+    font-weight: 600;
+    
+}
+
+.arrow:after {
+    content: "\0025BE";
+}
+
+
+.check:after {
+    content: "\2713";
+}
+
+.check {
+    padding: 3px 5px;
+    color: #3CB371;
+    border: 2px solid #3CB371;
+    border-radius: 50%;
+}
+
+.cross:after {
+    content: "\2717";
+}
+
+.cross {
+    padding: 3px 5px;
+    color: #FF0000;
+    border: 2px solid #FF0000;
+    border-radius: 50%;
+}
+
+.label {
+    border-radius: 12px;
+    font-size: 10px;
+    color: #ffffff;
+    padding: 9px;

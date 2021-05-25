@@ -15,22 +15,47 @@
     </header>
     <!-- corpo centrale -->
     <main>
-        <!-- <div class="container"> -->
-            <section class="button-container wrapper">
-                <button class="button add-task">Add Task</button>
-                <button class="button add-section">Add Section</button>
-            </section>
-            <section class="main-container wrapper">
+        <!-- bottoni -->
+        <div class="button-container wrapper">
+            <button class="button add-task">Add Task</button>
+            <button class="button add-section">Add Section</button>
+        </div>
+        <!-- lista nuove attività -->
+        <div class="main-container wrapper">
+            <section class="todolist">
                 <ul>
                     <li>
-                        <h2>New Task</h2>
+                        <h2><span class="arrow"></span> New Task</h2>
                     </li>
                     <li><span class="check"></span> Quarterly Newsletter <span class="blue label">Editorial</span></li>
                 </ul>
-
             </section>
-        <!-- </div> -->
-    </main>
+            <!-- attività del giorno -->
+            <section class="todolist">
+                <ul>
+                    <li>
+                        <h2><span class="arrow"></span> Today</h2>
+                    </li>
+                    <li><span class="check"></span> Recruiting Blog-post <span class="blue label">Editorial</span></li>
+                    <li><span class="check"></span> Mobile app launch <span class="purple label"> Q1 Goal</span></li>
+                    <li><span class="cross"></span> Interview John H <span class="darkgreen label"> Recruiting</span></li>
+                    <li><span class="check"></span> Summit update to mobile storefronts <span class="orange label"> Mobile</span></li>
+                </ul>
+            </section>
+            <!-- attività future -->
+            <section class="todolist">
+                <ul>
+                    <li>
+                        <h2> <span class="arrow"></span> Upcoming</h2>
+                    </li>
+                    <li><span class="cross"></span> Schedule meeting with Alex</li>
+                    <li><span class="check"></span> Homepage refresh <span class="pink label"> Website</span></li>
+                    <li><span class="check"></span> Onboard new sales team members <span class="yellow-green label"> Sales</span></li>
+                    <li><span class="check"></span> Review editorial calendar <span class="blue label"> Editorial</span></li>
+                </ul>
+            </section>
+        </div>
+        </main>
     
 </body>
 </html>
