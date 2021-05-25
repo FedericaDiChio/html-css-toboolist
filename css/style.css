@@ -25,10 +25,10 @@ header {
     height: 60px;
 }
 
-h1 {
-    display: inline-block;
+#logo-text {
     font-size: 40px;
     vertical-align: middle;
+    font-weight: 900;
 } 
 
 /* corpo centrale - bottoni */
