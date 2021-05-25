@@ -30,3 +30,43 @@ h1 {
     font-weight: 900;
     vertical-align: middle;
 } 
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+
+
+}
+.button-container {
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-container  {
+    margin-top: 5px;
+    line-height: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+} 
+
+.button {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.add-task {
+    color: #ffffff;
+    background-color: #6495ED;
+    border: 1px solid #6495ED;
+}
+
+.add-section {
+    color: #d9d9d9;
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+}
