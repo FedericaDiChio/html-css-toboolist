@@ -36,21 +36,15 @@ header {
     width: 60%;
     margin: auto;
     background-color: #ffffff;
-    padding: 30px 60px 30px;
+    padding: 20px 60px;
 }
 
 .button-container {
-    margin-top: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 60px;
+    
 }
-
-.main-container  {
-    margin-top: 5px;
-    line-height: 30px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-} 
 
 .button {
     padding: 8px;
@@ -71,16 +65,25 @@ header {
     border: 1px solid #d9d9d9;
 }
 
+
 /* corpo centrale lista */
+
+.main-container  {
+    margin-top: 5px;
+    height: 500px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+} 
+
+.todolist {
+    line-height: 35px;
+    margin-top: 10px;
+}
+
 li {
     list-style-type: none;
     font-weight: bold;
     color: #595959;
-}
-
-.todolist {
-    line-height: 40px;
-    margin-top: 30px;
 }
 
 /* entity code */
@@ -90,27 +93,28 @@ li {
 
 .check:after {
     content: "\2713";
-    padding: 3px 5px;
+    padding: 0.5px 3px;
     color: #3CB371;
-    border: 2px solid #3CB371;
+    border: 1px solid #3CB371;
     border-radius: 50%;
 }
 
 
 .cross:after {
     content: "\2717";
-    padding: 3px 5px;
+    padding: 0.5px 3px;
     color: #FF0000;
-    border: 2px solid #FF0000;
+    border: 1px solid #FF0000;
     border-radius: 50%;
 }
 
 /* etichette */
 .label {
-    border-radius: 12px;
-    font-size: 10px;
+    font-weight: lighter;
+    border-radius: 8px;
+    font-size: 9px;
     color: #ffffff;
-    padding: 9px;
+    padding: 5px;
 }
 
 .blue {
