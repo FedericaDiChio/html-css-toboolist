@@ -87,11 +87,11 @@ li {
 }
 
 /* entity code */
-.arrow:after {
+.arrow:before {
     content: "\0025BE";
 }
 
-.check:after {
+.check:before {
     content: "\2713";
     padding: 0.5px 3px;
     color: #3CB371;
@@ -100,7 +100,7 @@ li {
 }
 
 
-.cross:after {
+.cross:before {
     content: "\2717";
     padding: 0.5px 3px;
     color: #FF0000;
