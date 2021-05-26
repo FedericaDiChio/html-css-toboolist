@@ -79,19 +79,23 @@ header {
 
 /* lista */
 
-
-.todolist {
-    line-height: 35px;
-    margin-top: 10px;
+h2 {
+    margin-top: 25px;
 }
 
 li {
     list-style-type: none;
-    font-weight: bold;
-    color: #595959;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 /* entity code */
+
+.arrow::before {
+    content: "\25BC";
+    font-size: 15px;
+    vertical-align: middle;
+}
 
 .check::before {
     content: "\2713";
@@ -100,6 +104,7 @@ li {
     border: 1px solid #3CB371;
     border-radius: 50%;
     font-size: 12px;
+    
     
 }
 
