@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* header  */
+/* header */
 
 header {
     height: 80px;
@@ -31,7 +31,7 @@ header {
     font-weight: 900;
 } 
 
-/* corpo centrale - bottoni */
+/* corpo centrale - container */
 .wrapper {
     width: 60%;
     margin: auto;
@@ -46,34 +46,39 @@ header {
     
 }
 
-.button {
-    padding: 8px;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.add-task {
-    color: #ffffff;
-    background-color: #6495ED;
-    border: 1px solid #6495ED;
-}
-
-.add-section {
-    color: #d9d9d9;
-    background-color: #ffffff;
-    border: 1px solid #d9d9d9;
-}
-
-
-/* corpo centrale lista */
-
-.main-container  {
+.task-container  {
     margin-top: 5px;
     height: 500px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 } 
+
+/* corpo centrale elementi */
+
+/* bottoni */
+.button {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+.add-task {
+    color: #ffffff;
+    background-color: #6495ED;
+    border-color:  #6495ED;
+}
+
+.add-section {
+    color: #d9d9d9;
+    background-color: #ffffff;
+    border-color:  #d9d9d9;
+}
+
+
+/* lista */
+
 
 .todolist {
     line-height: 35px;
@@ -87,34 +92,35 @@ li {
 }
 
 /* entity code */
-.arrow:before {
-    content: "\0025BE";
-}
 
-.check:before {
+.check::before {
     content: "\2713";
     padding: 0.5px 3px;
     color: #3CB371;
     border: 1px solid #3CB371;
     border-radius: 50%;
+    font-size: 12px;
+    
 }
 
 
-.cross:before {
+.cross::before {
     content: "\2717";
     padding: 0.5px 3px;
     color: #FF0000;
     border: 1px solid #FF0000;
     border-radius: 50%;
+    font-size: 12px;
 }
 
 /* etichette */
-.label {
+.pill {
     font-weight: lighter;
     border-radius: 8px;
     font-size: 9px;
     color: #ffffff;
     padding: 5px;
+    vertical-align: middle;
 }
 
 .blue {
